@@ -1,0 +1,27 @@
+{
+	"uuid": "05036e6a-db8d-45de-9b27-6bfa4b8e519b",
+	"name": "Контекст_Проверка документа заказ покупателя",
+	"description": "",
+	"children": [
+		"9d23986f-15d3-41e9-9b70-661003a90fac"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1751224394962,
+			"stop": 1751224405129,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

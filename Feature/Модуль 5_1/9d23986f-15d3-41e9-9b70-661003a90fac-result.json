@@ -1,0 +1,522 @@
+{
+	"uuid": "9d23986f-15d3-41e9-9b70-661003a90fac",
+	"historyId": "Заказ покупателя.Проверка документа заказ покупателя",
+	"name": "Проверка документа заказ покупателя",
+	"fullName": "модуль 5/если+заказ.feature_проверка документа заказ покупателя",
+	"testCaseId": "0fe436eb2e850423117699f42c41560a",
+	"start": 1751224394952,
+	"stop": 1751224406476,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю \"Продажи\" \"Заказы покупателей\"",
+			"start": 1751224405132,
+			"stop": 1751224405199,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказы покупателей\"",
+			"start": 1751224405206,
+			"stop": 1751224405474,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'FormCreate'",
+			"start": 1751224405477,
+			"stop": 1751224405483,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FormCreate"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание)\"",
+			"start": 1751224405489,
+			"stop": 1751224405793,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем 'Partner'",
+			"start": 1751224405796,
+			"stop": 1751224405801,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Partner"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Партнеры\"",
+			"start": 1751224405806,
+			"stop": 1751224405930,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Партнеры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'List' я перехожу к строке:",
+			"start": 1751224405934,
+			"stop": 1751224405945,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "List"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "27ee2e1e-8e49-418f-9a4d-ace0e1308f8a-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'List' я активизирую поле с именем 'Description'",
+			"start": 1751224405949,
+			"stop": 1751224405956,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "List"
+				},
+				{
+					"name": "Парам2",
+					"value": "Description"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'List' я выбираю текущую строку",
+			"start": 1751224405958,
+			"stop": 1751224405964,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "List"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1751224405970,
+			"stop": 1751224406140,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице 'ItemList' я активизирую поле с именем 'ItemListLineNumber'",
+			"start": 1751224406144,
+			"stop": 1751224406152,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ItemList"
+				},
+				{
+					"name": "Парам2",
+					"value": "ItemListLineNumber"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно \"Заказ покупателя (создание) *\"",
+			"start": 1751224406155,
+			"stop": 1751224406158,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если поле с именем 'Agreement' заполнено Тогда",
+			"start": 1751224406161,
+			"stop": 1751224406473,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Agreement"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я запоминаю значение поля с именем 'Company' как 'Company'",
+					"start": 1751224406167,
+					"stop": 1751224406172,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Company"
+						},
+						{
+							"name": "Парам2",
+							"value": "Company"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Если переменная \"Company\" имеет значение \"\" Тогда",
+					"start": 1751224406176,
+					"stop": 1751224406473,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Company"
+						},
+						{
+							"name": "Парам2",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И я нажимаю кнопку выбора у поля с именем 'Company'",
+							"start": 1751224406179,
+							"stop": 1751224406194,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Company"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Тогда открылось окно \"Организации\"",
+							"start": 1751224406198,
+							"stop": 1751224406301,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Организации"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И в таблице 'List' я перехожу к строке:",
+							"start": 1751224406304,
+							"stop": 1751224406313,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "List"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "a028d194-0f3c-446e-a41b-d0afd1fb3c2e-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						},
+						{
+							"name": "И в таблице 'List' я активизирую поле с именем 'Description'",
+							"start": 1751224406316,
+							"stop": 1751224406323,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "List"
+								},
+								{
+									"name": "Парам2",
+									"value": "Description"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я нажимаю на кнопку с именем 'FormChoose'",
+							"start": 1751224406327,
+							"stop": 1751224406335,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "FormChoose"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Тогда открылось окно \"Заказ покупателя (создание) *\"",
+							"start": 1751224406341,
+							"stop": 1751224406462,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Заказ покупателя (создание) *"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я нажимаю на кнопку с именем 'FormWrite'",
+							"start": 1751224406466,
+							"stop": 1751224406473,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "FormWrite"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Проверка документа заказ покупателя"
+		},
+		{
+			"name": "feature",
+			"value": "Проверка документа заказ покупателя"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Модуль 5"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-HG1RSPQ"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
